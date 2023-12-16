@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/todolist.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>ToDo List</title>
+  <div id = "subpages">
+    <button onclick="goToMain()">Main page</button>
+    <button onclick="goToDoList()">To-Do List</button>
+    <button onclick="goToMedia()">Media</button>
+    <button onclick="goToDownloads()">Downloads</button>
+</div>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Task list</h1>
+    </div>
+    <div class="task-list">
+      <ul id="tasks">
+      </ul>
+    </div>
+    <div class="add-task">
+      <input type="text" id="new-task" placeholder="Enter a task">
+      <button class = "button1" onclick="addTask()">Add</button>
+    </div>
+  </div>
+  <script src="../js/todolist.js"></script>
+  <script src="../js/scriptmain.js"></script>
+</body>
+</html>

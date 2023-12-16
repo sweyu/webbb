@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #282c35;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s;
+  }
+  h1 {
+    color: #692cf8;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #subpages {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: right;
+    margin-right: 10px;
+  }
+  button {
+    padding: 14px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    background-color:#692cf8;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 4px; /* Dodatkowy margines między przyciskami */
+  }
+  
+  button:hover {
+    background-color: #9871e0;
+    transform: scale(1.1);
+  }
+  
+  .remove-button {
+    margin-left: auto;
+  }
+  .downloads-list{
+    margin-left: 50px;
+  }
+  .downloadtext{
+    color:white;
+    font-family: 'Arial', sans-serif;
+    background-color: #282c35;
+    padding: 0;
+  }
